@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Project Story - College Food Choices</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embed.3.latest.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Dietary Strategies: The Story</h1>
+    <nav>
+      <a href="/">Dashboard</a>
+      <a href="/story">Story</a>
+    </nav>
+  </header>
+
+  <section class="dashboard-embed">
+    <tableau-viz
+      id="tableauStory"
+      src="{{ story_url }}"
+      width="100%"
+      height="850"
+      toolbar="bottom">
+    </tableau-viz>
+  </section>
+
+  <footer>
+    <p>Built with Python, Flask &amp; Tableau &mdash; NASSCOM Internship Project</p>
+  </footer>
+</body>
+</html>

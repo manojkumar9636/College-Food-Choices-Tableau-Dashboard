@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>College Food Choices Case Study</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embed.3.latest.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Comprehensive Analysis and Dietary Strategies with Tableau</h1>
+    <p class="subtitle">A College Food Choices Case Study</p>
+    <nav>
+      <a href="/">Dashboard</a>
+      <a href="/story">Story</a>
+    </nav>
+  </header>
+
+  <section class="stats">
+    <div class="card"><h2>{{ stats.total_students }}</h2><p>Students Surveyed</p></div>
+    <div class="card"><h2>{{ stats.avg_cgpa }}</h2><p>Average CGPA</p></div>
+    <div class="card"><h2>{{ stats.pct_skip_breakfast }}%</h2><p>Skip Breakfast</p></div>
+    <div class="card"><h2>{{ stats.pct_stress_eaters }}%</h2><p>Stress/Boredom Eaters</p></div>
+    <div class="card"><h2>{{ stats.avg_fastfood_week }}</h2><p>Avg Fast Food Meals/Week</p></div>
+  </section>
+
+  <section class="dashboard-embed">
+    <h2>Interactive Dashboard</h2>
+    <tableau-viz
+      id="tableauViz"
+      src="{{ dashboard_url }}"
+      width="100%"
+      height="800"
+      toolbar="bottom">
+    </tableau-viz>
+  </section>
+
+  <footer>
+    <p>Built with Python, Flask &amp; Tableau &mdash; NASSCOM Internship Project</p>
+  </footer>
+</body>
+</html>
