@@ -1,0 +1,14 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Arial, sans-serif; }
+body { background: #f4f6f9; color: #222; }
+header { background: linear-gradient(135deg, #1a3c6e, #2f6fb5); color: #fff; padding: 30px 20px; text-align: center; }
+header h1 { font-size: 1.8rem; margin-bottom: 6px; }
+.subtitle { opacity: 0.85; margin-bottom: 16px; }
+nav a { color: #fff; text-decoration: none; margin: 0 12px; font-weight: 600; padding: 6px 14px; border: 1px solid rgba(255,255,255,0.5); border-radius: 20px; }
+nav a:hover { background: rgba(255,255,255,0.15); }
+.stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; padding: 24px 16px; }
+.card { background: #fff; border-radius: 12px; padding: 20px 26px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.08); min-width: 150px; }
+.card h2 { color: #2f6fb5; font-size: 1.8rem; }
+.card p { color: #666; margin-top: 4px; font-size: 0.9rem; }
+.dashboard-embed { padding: 10px 16px 40px; max-width: 1100px; margin: 0 auto; }
+.dashboard-embed h2 { margin-bottom: 12px; color: #1a3c6e; }
+footer { text-align: center; padding: 20px; color: #888; font-size: 0.85rem; }
