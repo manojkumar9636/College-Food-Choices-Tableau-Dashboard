@@ -16,6 +16,29 @@ programs, and cafeteria management (see the 3 scenarios below).
    consumption and healthier alternatives.
 3. **Improving Cafeteria Food Choices** — low fruit/veg intake vs high
    fast-food consumption to guide menu decisions.
+   
+### Dashboard Preview
+
+![CGPA by Breakfast](screenshots/01_avg_cgpa_by_breakfast.png)
+
+![Comfort Food Trigger Donut](screenshots/02_comfort_food_trigger_donut.png)
+
+![Stress vs Fastfood Heatmap](screenshots/03_stress_vs_fastfood_heatmap.png)
+
+![CGPA Boxplot](screenshots/04_cgpa_boxplot_by_band.png)
+
+![Vegfruit vs Concentration](screenshots/05_vegfruit_vs_concentration_scatter.png)
+
+![Eating Location by Year](screenshots/06_eating_location_by_year_stacked.png)
+
+![Average Sleep by Year](screenshots/07_avg_sleep_by_year.png)
+
+![Cuisine Preference Treemap](screenshots/08_cuisine_preference_treemap.png)
+
+![Average Budget by Major](screenshots/09_avg_budget_by_major.png)
+
+![Stress Eater Bullet](screenshots/10_stress_eater_bullet.png)
+
 
 ## 🗂️ Project Structure
 ```
