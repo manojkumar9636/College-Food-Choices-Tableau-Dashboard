@@ -86,8 +86,20 @@ python app.py
 Data Preprocessing · Tableau (BI Software) · Data Modeling · Data
 Visualization · Dashboard Design · Flask Web Integration
 
-## 👤 Author
-Manoj Kumar
+## Team Members
+
+- Manoj Kumar
+- Ansh Jangid
+- Kamlesh Meena
+- Vikas Khileri
+- Yuvraj Verma
+  
+ ## Use Links
+- Github Repo: [GitHub Repository](https://github.com/manojkumar9636/College-Food-Choices-Tableau-Dashboard)
+- Tableau Public Profile: [Manoj Kumar](https://public.tableau.com/app/profile/manoj.kumar5931/vizzes)
+- Tableau Dashboard: [College Food Survey Dashboard](https://public.tableau.com/app/profile/manoj.kumar5931/viz/CollegeFoodSurveyDashboard/Dashboard1)
+- Tableau Story: [Dietary Strategies Story](https://public.tableau.com/app/profile/manoj.kumar5931/viz/DietaryStrategiesStory/ImprovingPersonalHealthAcademicFocus)
+- Demo Video: *(add after recording)*
 
 ## 📄 License
 For academic/internship submission purposes.
