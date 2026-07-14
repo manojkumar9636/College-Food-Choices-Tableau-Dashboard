@@ -99,7 +99,7 @@ Visualization · Dashboard Design · Flask Web Integration
 - Tableau Public Profile: [Manoj Kumar](https://public.tableau.com/app/profile/manoj.kumar5931/vizzes)
 - Tableau Dashboard: [College Food Survey Dashboard](https://public.tableau.com/app/profile/manoj.kumar5931/viz/CollegeFoodSurveyDashboard/Dashboard1)
 - Tableau Story: [Dietary Strategies Story](https://public.tableau.com/app/profile/manoj.kumar5931/viz/DietaryStrategiesStory/ImprovingPersonalHealthAcademicFocus)
-- Demo Video: *(add after recording)*
+- Demo Video: https://drive.google.com/file/d/1eVmoscD7_6QKoRAD_Jfn3JaIi0YbTKCY/view?usp=sharing                           Note: If the video preview doesn't load directly, please download the file to view it.
 
 ## 📄 License
 For academic/internship submission purposes.
